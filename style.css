@@ -3,12 +3,13 @@
 }
 
 body {
-    background-color: rgba(62, 137, 202, 0.912);
+    background-color: rgb(0, 0, 0);
 }
 
 main {
-    background-color: white;
-    width: 800px;
+    background-color: rgb(218, 239, 241);
+    width: 600px;
     margin: auto;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+    padding: 10px;
+    box-shadow: 0px 5px 5px 5px rgba(246, 243, 243, 0.612);
 }
