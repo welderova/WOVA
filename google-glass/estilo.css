@@ -1,0 +1,96 @@
+@chasert "UTF-8";
+
+body {
+	background-color: #dddddd;
+	color: rbga(0, 0, 0, 1);
+}
+
+div#interface {
+	width: 900px;
+	background-color: #ffffff;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+ }
+
+p {
+	text-align: justify;
+	text-indent: 50px;
+}
+
+header#cabecalho img#icone {
+	position: absolute;
+	left: 780px;
+	top: 40px;
+}
+
+
+
+/* Formatação de imagens com legendas */
+
+figure.foto-legenda {
+	position: relative;
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+	width: 100%;
+	height: 100%;  
+}
+
+figure.foto-legenda figcaptin {
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	width: 100%; 
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box; 
+	transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaptin {
+	opacity: 1;
+}
+
+/* Formação do menu */
+
+nave#menu {
+	display: block;
+}
+
+nave#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -20px;
+	left: 300px;
+}
+
+nave#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+}
+
+nave#menu li:hover {
+	background-color: #606060;
+}
+nave#menu h1 {
+	display: none;
+}
+
+nave#menu a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nave#menu a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}	
