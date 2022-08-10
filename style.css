@@ -13,7 +13,7 @@ body {
 div#interface {
 	width: 1000px;
 	background-color: #ffffff;
-	margin: auto 0px auto;
+	margin: auto;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
 	padding: 10px;
  }
@@ -30,8 +30,8 @@ a {
 
 header#cabecalho img#icone {
 	position: absolute;
-	left: 800px;
-	top: 70px;
+	left: 900px;
+	top: 30px;
 }
 
 header#cabecalho {
@@ -155,7 +155,7 @@ ul#album-fotos li#foto05:hover {
 }
 
 ul#album-fotos li#foto06 {
-    background: url(galeria-06.jpg);
+    background: url(Fundamentos-do-Suporte-Tecnico.jpg);
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -170,7 +170,7 @@ ul#album-fotos li#foto06:hover {
 
 section#corpo {
 	display: block;
-	width: 500px;
+	width: 600px;
 	float: left;
 	border-right: 1px solid #606060;
 	padding-right: 15px;
