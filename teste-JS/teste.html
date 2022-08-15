@@ -9,7 +9,7 @@
         var quebrada = false;
             function mudaLampada(tipo) {
                 if (!quebrada) {
-                    document.getElementById("luz").src = "_imagens/"+tipo+".jpg";
+                    document.getElementById("luz").src = ""+tipo+".jpg";
                     if (tipo == 'lampada-quebrada') {
                         quebrada = true;
                     }
@@ -21,6 +21,6 @@
 <body>
     <h1>Acenda a Lâmpada ou Quebre</h1>
     <p>Passe o mause para acender o click para quebrar</p>
-    <img src="_imagens/lampada-apagada.jpg" id="luz" onmousemove="mudaLampada('lampada-acesa')" onmouseout="mudaLampada('lampada-apagada')" onclick="mudaLampada('lampada-quebrada')">
+    <img src="lampada-apagada.jpg" id="luz" onmousemove="mudaLampada('lampada-acesa')" onmouseout="mudaLampada('lampada-apagada')" onclick="mudaLampada('lampada-quebrada')">
 </body>
 </html>
