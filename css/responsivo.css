@@ -1,0 +1,61 @@
+@media screen and (max-width:1000px) {
+    
+    .navbar {
+        display: flex;
+        flex-flow: nowrap;
+        height: 100px;
+        background: white;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+    }
+    .logo {
+        flex: 20%;       
+        text-align: left;
+    }
+    .logo h1 {
+        font-family: 'Lobster', cursive;
+        color: #180f4a;
+        font-size: 30px;
+    }
+    .menu {
+        flex: 70%;        
+        text-align: left;
+        padding: 10px;
+    }
+    .menu a{
+        color: #180f4a;
+        text-decoration: none;
+    }
+    .menu a:hover {
+        color: #ff2978;
+    }
+    
+    .logo {
+        margin: 0;
+        text-align: center;
+    }
+    .header {
+        padding: 50px;
+    }
+    .headline {
+        flex-wrap: 100%;
+        margin: 5%;
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    .card3D {
+        display: inline-block;
+        flex-wrap: 100%;
+        margin: 5%;
+        text-align: center;
+        padding-top: auto;
+
+    }
+    .card {
+        margin: auto;
+        flex: 40%;
+    }
+}
