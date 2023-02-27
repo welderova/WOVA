@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(162, 219, 222);
+    
+}
+
+div {
+	width: 1000px;
+	background-color: #cecece;
+	margin: auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+    text-align: center;
+}
+h1 {
+    /*para usar mudar uma cor das letras e so usar a propriedade color */
+    color: rgb(21, 0, 255);
+}
+header {
+    width: 900px;
+    background: #dcd7d7;
+    padding: 5px;
+    margin: auto;
+}
+
+section {
+    width: 900px;
+    background-color: #dcd7d7;
+    margin: auto;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.calc-sum {
+    width: 500px;
+    padding: 20px;
+}
+.somar.input {
+    margin-top: 10px;
+}

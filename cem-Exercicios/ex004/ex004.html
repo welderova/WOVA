@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios 004</title>
+    <link rel="stylesheet" href="style004.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Projetos em HTML, CSS e JS (EX004)</h1>
+            <p>4) Desenvolva em HTML, CSS e JS um algoritmo que leia dois números inteiros e mostre o omatório entre eles.</p>
+            <p>Ex:</p>
+            <p>Digite um valor: 8</p>
+            <p>Digite outro valor: 5</p>
+            <p>A soma entre 8 e 5 é igual a 13.</p>
+        </header>
+        <section>
+            <h2>Exercícios 004</h2>
+            <div class="calc-sum">
+                <p>Digite o primeiro Número:</p>
+                <input class="n1" type="number">
+                <br>
+                <p>Digite o segundo Número:</p>
+                <input class="n2" type="number"><br><br>
+                <button onclick="somar()">SOMAR</button>
+                <p><span></span></p>
+            </div>
+
+            <script>
+                var n1 = document.querySelector('.n1');
+                var n2 = document.querySelector('.n2');
+                var resultado = document.querySelector('span')
+
+
+
+                function somar() {
+                    resultado.innerHTML = parseInt(n1.value) + parseInt(n2.value);
+                }
+            </script>
+        </section>
+    </div>
+</body>
+</html>
