@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercícios 004</title>
     <link rel="stylesheet" href="style004.css">
+    
 </head>
 <body>
     <div>
@@ -21,25 +22,17 @@
             <h2>Exercícios 004</h2>
             <div class="calc-sum">
                 <p>Digite o primeiro Número:</p>
-                <input class="n1" type="number">
+                <input id="numero1" type="number">
                 <br>
                 <p>Digite o segundo Número:</p>
-                <input class="n2" type="number"><br><br>
-                <button onclick="somar()">SOMAR</button>
-                <p><span></span></p>
+                <input id="numero2" type="number"><br><br>
+                <button onclick="calcularSomatorio()" style="padding: 10px">SOMAR</button>
+                <p id="resultado"></p>
             </div>
 
-            <script>
-                var n1 = document.querySelector('.n1');
-                var n2 = document.querySelector('.n2');
-                var resultado = document.querySelector('span')
-
-
-
-                function somar() {
-                    resultado.innerHTML = parseInt(n1.value) + parseInt(n2.value);
-                }
-            </script>
+            <script src="js004.js"></script>
+                
+              
         </section>
     </div>
 </body>

@@ -39,14 +39,14 @@
     .header {
         padding: 50px;
     }
-    .headline {
+    .container1 {
         flex-wrap: 100%;
         margin: 5%;
         text-align: center;
         padding-top: 100px;
     }
     
-    .card3D {
+    .container2 {
         display: inline-block;
         flex-wrap: 100%;
         margin: 5%;

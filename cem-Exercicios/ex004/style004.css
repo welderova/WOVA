@@ -32,7 +32,9 @@ section {
 
 .calc-sum {
     width: 500px;
+    height: 250px;
     padding: 20px;
+    margin-bottom: 25px;
 }
 .somar.input {
     margin-top: 10px;

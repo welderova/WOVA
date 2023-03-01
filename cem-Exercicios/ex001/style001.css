@@ -31,3 +31,18 @@ section {
     padding: 5px;
     margin-top: 10px;
 }
+#olaMundo {
+    background-image: linear-gradient( #00f260, #f79d00, #0575e6, #64f38c);
+    font-size: 100pt;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 300%;
+    background-position: -100%;
+    animation: animatedText 5s infinite alternate-reverse;
+
+}
+@keyframes animatedText{
+    to{
+        background-position: 100%;
+    }
+}

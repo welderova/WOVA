@@ -1,0 +1,19 @@
+body {
+    background-color: aqua;
+}
+div {
+    background-color: aliceblue;
+}
+header {
+    background-color: bisque;
+    padding: 5px;
+    text-align: center;
+    border: double 5px red;
+}
+section {
+    background-color: bisque;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    border: double 5px red;
+}

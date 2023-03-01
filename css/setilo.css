@@ -19,7 +19,6 @@ body {
 .logo {
     flex: 20%;
     margin-left: 10%;
-    
     text-align: left;
 }
 .logo h1 {
@@ -28,10 +27,9 @@ body {
     font-size: 34px;
 }
 .menu {
-    margin-right: 10%;
     flex: 70%;
     
-    text-align: center;
+    text-align: right;
     padding: 20px;
 }
 .menu a{
@@ -41,7 +39,7 @@ body {
     padding: 20px 16px;
 }
 .menu a:hover {
-    color: #ff2978;
+    color: #5e2129;
 
 }
 
@@ -54,11 +52,12 @@ header {
     padding-top: 100px;
 }
 
-.headline {
+.container1 {
     margin-left: 10%;
     flex: 40%;
+    /* border: 1px solid; */
 }
-.headline h2{
+.container1 h2{
     font-weight: 900;
     font-size: 20px;
     color: #180f4a;
@@ -66,17 +65,17 @@ header {
     margin: 0;
 }
 
-.headline p {
+.container1 p {
     color: gray;
 
 }
-.headline a {
-    text-align: center;
+.container1 a {
+    text-align: left;
 }
 
 .contact-btn {
     display: inline-block;
-    background: #ff2978;
+    background: #5e2129;
     padding: 20px;
     color: white;
     text-transform: uppercase;
@@ -86,15 +85,17 @@ header {
 .contact-btn:hover {
     background: #180f4a;
 }
-.card3D {
+.container2 {
     margin: auto;
+    /* border: 1px solid; */
     flex: 40%;
 }
 
 .card {
-    background-image: radial-gradient(#ff2978, #180f4a, #090422, black);
+    background-image: radial-gradient(#5e2129, #180f4a, #090422, black);
     width: 400px;
     height: 500px;
+    margin: auto;
     border-radius: 20px;
     display: grid;
     align-content: center;
@@ -107,7 +108,7 @@ header {
     margin: 30px auto 40px auto;
 }
 .name {
-    color: white;
+    color: #5e2129;
     font-size: 20px;
     text-align: center;
 }
@@ -119,7 +120,7 @@ footer {
     height:400px;
     background-image: linear-gradient(180deg, #180f4a, #090422, black);
     text-align: center;
-    border-top: 5px solid #ff2978;
+    border-top: 5px solid #5e2129;
 
 }
 
