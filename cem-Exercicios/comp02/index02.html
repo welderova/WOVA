@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazendo Somatorio</title>
+
+    <style>
+        body{
+            font: normal 18pt Arial;
+            
+        }
+        input {
+            font: normal 18pt Arial;
+            width: 100px;
+        }
+        div#res {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando Valores</h1>
+
+    <input type="number" name="" id="n1">+
+    <input type="number" name="" id="n2">
+    <input type="button" value="Somar" onclick="somar()">
+    <div id="res">resultado</div>
+
+    <script>
+        function somar(){
+            var n1 = Number(document.getElementById ('n1').value) ;
+            var n2 = Number(document.querySelector ('input#n2').value) ;
+            var res = document.getElementById ('res');
+            var s = n1 + n2
+            res.innerHTML = `(${n1}) + (${n2}) = <strong>${s}</strong>.`
+
+        }
+    </script>
+    
+</body>
+</html>

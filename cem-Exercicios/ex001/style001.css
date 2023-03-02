@@ -33,7 +33,7 @@ section {
 }
 #olaMundo {
     background-image: linear-gradient( #00f260, #f79d00, #0575e6, #64f38c);
-    font-size: 100pt;
+    font-size: 20pt;
     -webkit-background-clip: text;
     color: transparent;
     background-size: 300%;
