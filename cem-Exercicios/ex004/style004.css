@@ -3,7 +3,7 @@ body {
     
 }
 
-div {
+.conteiner {
 	width: 1000px;
 	background-color: #cecece;
 	margin: auto;

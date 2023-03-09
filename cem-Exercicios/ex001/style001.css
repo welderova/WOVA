@@ -1,11 +1,10 @@
 body {
-    background-image: url(../../img/foto-welder.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 
-div {
+.conteiner {
 	width: 1000px;
 	background-color: #cecece;
 	margin: auto;
@@ -32,10 +31,6 @@ section {
     margin-top: 10px;
 }
 #olaMundo {
-    background-image: linear-gradient( #00f260, #f79d00, #0575e6, #64f38c);
-    font-size: 20pt;
-    color: transparent;
-    background-size: 300%;
-    background-position: -100%;
-
+    color: blue;
+    font-size: 34pt;
 }

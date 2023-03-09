@@ -1,4 +1,4 @@
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1349px) {
     
     .navbar {
         display: flex;
@@ -12,7 +12,7 @@
     }
     .logo {
         flex: 20%;       
-        text-align: left;
+        text-align: center;
     }
     .logo h1 {
         font-family: 'Lobster', cursive;
@@ -20,16 +20,9 @@
         font-size: 30px;
     }
     .menu {
-        flex: 70%;        
-        text-align: left;
+        flex: 60%;        
+        text-align: center;
         padding: 10px;
-    }
-    .menu a{
-        color: #180f4a;
-        text-decoration: none;
-    }
-    .menu a:hover {
-        color: #ff2978;
     }
     
     .logo {
