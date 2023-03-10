@@ -3,15 +3,19 @@
     box-sizing: border-box;
 }
 body {
-
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.corpo {
-    max-width: 1200px;
-    margin: auto;
-    margin-top: -10px;
+
+header {
+    text-align: center;
 }
-.navbar {
+header h1 {
+    font-family: 'Lobster', cursive;
+    color:  #15156d;
+    font-size: 40pt;
+}
+nav {
     display: flex;
     flex-flow: nowrap;
     height: 100px;
@@ -20,60 +24,41 @@ body {
     align-items: center;
     width: 100%;
 }
-.logo {
-    
-    margin-left: 20%;
-    flex: 30%;
-    text-align: center;
-}
-.logo h1 {
-    font-family: 'Lobster', cursive;
-    color: #180f4a;
-    font-size: 50px;
-}
-.menu {
-    margin-right: 20%;
-    flex: 30%;
-    text-align: left;
-    color:white;
-    padding: 10px;
-}
-.menu a{
-    background: #5e2129;
+a {
+    background:  #470827;
     color:white;
     border-radius: 10px;
+    margin: 5px;
     text-decoration: none;
     padding: 10px 16px;
 }
-.menu a:hover {
-    background: #180f4a;
+a:hover {
+    background:   #15156d;
 
 }
-
-header {
+section {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     background: white;
-    
 }
 
 .container1 {
-    margin-left: 20%;
-    flex: 30%;
+    margin-left: 10%;
+    flex: 40%;
     text-align: center;
 }
 .container1 h2{
     font-weight: 900;
     font-size: 20px;
-    color: #180f4a;
+    color:  #15156d;
     padding: 0;
     margin: 0;
 }
 
 .container1 p {
-    color: #180f4a;
+    color:  #15156d;
 
 }
 .container1 a {
@@ -82,7 +67,7 @@ header {
 
 .contact-btn {
     display: inline-block;
-    background: #5e2129;
+    background:  #470827;
     padding: 20px;
     color: white;
     text-transform: uppercase;
@@ -90,52 +75,60 @@ header {
     text-decoration: none;
 }
 .contact-btn:hover {
-    background: #180f4a;
-}
-.container2 {
-    margin-right: 20%;
-    flex: 30%;
-    text-align: center;  
-}
-
-.card {
-    background-image: radial-gradient(#5e2129, #180f4a, #090422, black);
-    width: 400px;
-    height: 500px;
-    margin: auto;
-    border-radius: 20px;
-    display: grid;
-    align-content: center;
+    background:  #15156d;
 }
 .proImg {
     width: 200px;
     margin: auto;
-    border: 1px solid white;
-    border-radius: 100%;
     margin: 30px auto 40px auto;
 }
-.name {
-    color: #5e2129;
-    font-size: 20px;
+.container2 {
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
     text-align: center;
 }
 
 
 footer {
+    background-image: linear-gradient(180deg,  #0d509f, #15156d, black);
     margin-top: 50px;
     height:100%;
-    background-image: linear-gradient(180deg, #180f4a, #090422, black);
+    color: white;
+    padding: 100px;
     text-align: center;
-    border-top: 5px solid #5e2129;
+    border-top: 5px solid  #470827;
 
-}
-
-.logo-rodape {
-padding: 100px;
 }
 
 .agencia {
     font-family: 'Lobster', cursive;
     color: white;
     font-size: 34px;
+}
+
+.wova {
+    font-family: 'Lobster', cursive;
+    font-size: 20pt;
+}
+@media screen and (max-width:1279px) {
+    .container1 {
+        flex-wrap: 100%;
+        margin: 5%;
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    .container2 {
+        display: inline-block;
+        flex-wrap: 100%;
+        margin: 5%;
+        text-align: center;
+        padding-top: auto;
+
+    }
 }
