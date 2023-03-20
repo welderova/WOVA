@@ -77,22 +77,14 @@ section {
 .contact-btn:hover {
     background:  #15156d;
 }
-.proImg {
-    width: 200px;
-    margin: auto;
-    margin: 30px auto 40px auto;
-}
 .container2 {
     margin-right: 10%;
     flex: 40%;
     text-align: center;
 }
-.img-headline {
-    margin-right: 10%;
-    flex: 40%;
-    text-align: center;
+.container2 img {
+    border-radius: 40px;
 }
-
 
 footer {
     background-image: linear-gradient(180deg,  #0d509f, #15156d, black);
@@ -103,12 +95,6 @@ footer {
     text-align: center;
     border-top: 5px solid  #470827;
 
-}
-
-.agencia {
-    font-family: 'Lobster', cursive;
-    color: white;
-    font-size: 34px;
 }
 
 .wova {
