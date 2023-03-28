@@ -9,51 +9,39 @@ let perguntasFeitas = [];
 const perguntas = [
     //Pergunta 0
     {
-        pergunta: "Duda é gala rala?",
-        resposta: ["Sim, por isso Gleiciana o lasgou", "Super fértiu", "Tem super espermatozoides ", "So goza fora e deu sorte"],
-        correta: "resp3"
+        pergunta: "Antes de se chamar JavaScript, a linguagem tinha outros nomes, os principais foram:",
+        resposta: ["Mocha e LiveScript", "Java e Mocha", "Java e LiveScript", "LiveScript e ECMAScript"],
+        correta: "resp0"
     },
     //Pergunta 1
     {
-        pergunta: "Você concorda que o Welder é lindo?",
-        resposta: ["Não", "Lindo de mais", "Se acha de mais", "AAhhh vai a merda"],
-        correta: "resp1"
+        pergunta: 'Se temos um código HTML &lt;div class="texto"&gt;...&lt;/div&gt; e queremos acessar esse elemento via JavaScript, qual instrução devemos usar?',
+        resposta: ['document.getElementById("texto")', 'document.querySelector("div#texto")', 'document.querySelector("div.texto")', 'document.getElementById("div")'],
+        correta: "resp2"
     },
     //Pergunta 2
     {
-        pergunta: "Cassio agora é um pau mandado?",
-        resposta: ["Não faz nada por que a mulhar pode castra-lo", "Quem manda é ele", "Ele não é pau mandado", "Faz tudo escondido"],
-        correta: "resp0"
+        pergunta: "Para o mundo HTML + JavaScript, a sigla DOM significa:",
+        resposta: ["Data Object Markup", "Document Objective Maker", "Document Object Model", "Data Object Master"],
+        correta: "resp2"
     },
     //Pergunta 3
     {
-        pergunta: "Claudio é gay?",
-        resposta: ["Casou-se, mas é um baitola", "Hetero", "Hetero Top", "Masculo"],
-        correta: "resp0"
+        pergunta: "Qual é o comando JS responsável por mostrar uma janela contextual capaz de mostrar uma imagem e solicitar que o usuário digite algum valor ou texto?",
+        resposta: ["window.alert()", "window.prompt()", "window.confirm()", "window.keyboard()"],
+        correta: "resp1"
     },
     //Pergunta 4
     {
-        pergunta: "O Cleiton vai ser sempre virgem?",
-        resposta: ["Roni e gordo", "Pega geral", "Muleque doido", "Sarado das Mulheradas"],
-        correta: "resp0"
+        pergunta: "Qual dos itens abaixo é o único que NÃO É um data type em JavaScript?",
+        resposta: ["number", "string", "NaN", "float"],
+        correta: "resp3"
     },
     //Pergunta 5
     {
-        pergunta: "O Roni é muleque doido da quebrada?",
-        resposta: ["Se esconde debaixo da cama enquanto outros transam", "Pega geral", "Muleque muito doido", "Principe das Mulheres"],
-        correta: "resp0"
-    },
-    //Pergunta 6
-    {
-        pergunta: "O Leonardo Boi é um super homem?",
-        resposta: ["Se esconde debaixo da cama enquanto outros transam", "Pega geral", "Muleque muito doido", "Principe das Mulheres, e que principe"],
-        correta: "resp3"
-    },
-    //Pergunta 7
-    {
-        pergunta: "O Wagner acha mesmo que vai se rico com apostas?",
-        resposta: ["Vai ser milionário", "Ganha e paga a serva", "Tem que parar e ter dois empregos", "Rei dos palpites"],
-        correta: "resp2"
+        pergunta: "Qual das opções abaixo é a única onde encontramos APENAS operadores lógicos do JavaScript?",
+        resposta: [">= , <= e ===", "&&, || e !", "+=, ** e &&", "||, // e !!"],
+        correta: "resp1"
     },
 ]
 
@@ -108,7 +96,7 @@ function gerarPergunta(maxPerguntas) {
 
 
             $('#quiz').addClass('oculto');
-            $('#mensagem').html('Aceeeertou todas Miseraveeeee!')
+            $('#mensagem').html('Aceeeertou todas!')
              $('#status').removeClass('oculto');
         }
 
