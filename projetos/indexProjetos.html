@@ -1,61 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Meus Projetos</title>
-	<link rel="stylesheet" href="styleMeusProjetos.css">
-	
+    <link rel="stylesheet" href="../bootStrap/css/bootstrap.min.css">
+    <title>Meus Projetos</title>
 </head>
 
-<body>
-	<section>
+<body data-bs-spy="scroll " data-bs-target="#menu ">
+    <div id="topo" class="container">
+        <header class="bg-light sticky-top d-flex flex-wrap justify-content-center py-3 mb-5 border-bottom">
+            <a href="/index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <span class="fs-4 fw-bold" style="color: #15156d">Welder OVA</span>
+            </a>
 
-		
-		
-			<h1>Meus Projetos</h1>
-			<a class="link" href="../index.html">HOME</a>
-			<br>
-			<br>
-		
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="/index.html" class="nav-link active" aria-current="page" style="background-color: #470827;">Home</a></li>
+            </ul>
+        </header>
+        <section>
+            <div class="row ">
+                <div class="col-12 text-center ">
+                    <h1 class="display-5 fw-bold " style="color: #15156d">Projetos</h1>
+                </div>
+            </div>
+            <div class="row align-items-md-stretch text-center ">
+                <div class="col-md-12 ">
+                    <div class="p-2 my-3 bg-light border rounded-3 ">
+                        <a target="_blank " href="/clinicaVeterinaria/clinicaVeterinaria.html" class=" mt-4 col-md-12 p-3 btn " type="button " style="background-color: #470827; color: white ">
+                            <h2>Clínica Veterinária</h2>
+                            <p>Site sobre uma clínica veterinária usando HTML, CSS e JS</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="p-2 my-3 bg-light border rounded-3 ">
+                        <a target="_blank " href="../jogoQuiz/jogo.html " class="mt-4 col-md-12 p-3 btn " type="button " style="background-color: #470827; color: white ">
+                            <h2>Quiz JavaScript</h2>
+                            <p>Um pequeno projeto de perguntas usando muito JQuery</p>
+                        </a>
+                    </div>
+                </div>
 
-		<div class="conteiner" onclick="">
-			<h2>Projetos em HTML, CSS e JS</h2>
-			<p>Lista de exercícios para praticar</p>
-			<a href="../cem-Exercicios/cemExercicios.html">Acesse Aqui</a>
-		</div>
+                <div class="col-md-12 ">
+                    <div class="p-2 my-3 bg-light border rounded-3 ">
+                        <a target="_blank " href="../agencia-fake/agenciaFake.html " class="mt-4 col-md-12 p-3 btn " type="button " style="background-color: #470827; color: white ">
+                            <h2>Agência Fake</h2>
+                            <p>Produção de um site para uma agencia digital fake em HTML e CSS</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="p-2 my-3 bg-light border rounded-3 ">
+                        <a target="_blank " href="../cem-Exercicios/cemExercicios.html " class="mt-4 col-md-12 p-3 btn " type="button " style="background-color: #470827; color: white ">
+                            <h2>Projetos em HTML, CSS e JS</h2>
+                            <p>Lista de exercícios para praticar</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="p-2 my-3 bg-light border rounded-3 ">
+                        <a target="_blank " href="../google-glass/google-glass.html " class="mt-4 col-md-12 p-3 btn " type="button " style="background-color: #470827; color: white ">
+                            <h2>Google Glass</h2>
+                            <p>Projeto Google Glass com HTML e CSS basico</p>
+                        </a>
+                    </div>
+                </div>
 
-		<div class="conteiner" onclick="">	
-			<h2>Projeto Google Glass</h2>
-			<p>Projeto Google Glass com HTML e CSS basico</p>
-			<a href="../google-glass/google-glass.html">Acesse Aqui</a></p>
-		</div>
 
-		
+                <div class="col-md-12 ">
+                    <div class="p-2 my-3 bg-light border rounded-3 ">
+                        <a target="_blank " href="../projeto-site/projeto-site.html " class="mt-4 col-md-12 p-3 btn " type="button " style="background-color: #470827; color: white ">
+                            <h2>Site Comum</h2>
+                            <p>Um pequeno projeto para aprender Git e GitHub</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-		<div class="conteiner" onclick="">	
-			<h2>Porjeto Agência Fake</h2>
-			<p>Produção de um site para uma agencia digital fake</p>
-			<a href="../agencia-fake/agenciaFake.html">Acesse Aqui</a>
-		</div>
-
-		<div class="conteiner" onclick="">	
-			<h2>Quiz JavaScript</h2>
-			<p>Um pequeno projeto de perguntas usando muito JQuery</p>
-			<a href="../jogoQuiz/jogo.html">Acesse Aqui</a>
-		</div>
-
-		<div class="conteiner" onclick="">	
-			<h2>Site comum com Guanabara</h2>
-			<p>Um pequeno projeto para aprender Git e GitHub</p>
-			<a href="../projeto-site/projeto-site.html">Acesse Aqui</a>
-		</div>
-		
-		<footer>
-			<p>Copyright &copy; 2023 - by Welder Oliveira </p>
-				
-		</footer>
-	</section>
-</div>
+        </section>
+        <footer class="container mt-5 p-5 ">
+            <p class="float-end "><a href="# ">Ir para topo</a></p>
+            <p>© 2023–2023 <i class="mdi mdi-dog "></i> WOVA — Welder OVA Programador Front-end<a class="ms-5 " href="# ">Politica de
+                    Privacidade</a> · <a href="# ">Termos de Uso</a></p>
+        </footer>
+        <script src="/bootStrap/js/bootstrap.bundle.min.js "></script>
+    </div>
 </body>
